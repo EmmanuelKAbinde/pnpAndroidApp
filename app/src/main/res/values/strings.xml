@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">PnP</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="cart" icon="@drawable/cart"></string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="drawer_open">Drawer Opened</string>
+    <string name="drawer_close">Drawer Closed</string>
+
+    <string-array name="names">
+        <item>Visa</item>
+        <item>Visa Debit</item>
+        <item>MaterCard</item>
+        <item>American Express</item>
+    </string-array>
+
+
+    <string-array name="month">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="year">
+
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+    </string-array>
+
+    <string-array name="province">
+
+        <item>Gauteng</item>
+        <item>Mpumalanga</item>
+        <item>Limpopo</item>
+        <item>Northern Cape</item>
+        <item>Western Cape</item>
+        <item>Free State</item>
+        <item>Eastern Cape</item>
+        <item>KwaZulu-Natal</item>
+        <item>North West</item>
+
+    </string-array>
+
+
+    <string name="button">Button</string>
+    <string name="name">Name</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="registration">REGISTRATION</string>
+
+    <string name="surname">Surname</string>
+    <string name="email_username">Email/USername</string>
+    <string name="name3">Name3</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textview100">TextView</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>

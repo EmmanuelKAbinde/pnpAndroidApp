@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/relative2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/image_placeholder" />
+
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:layout_toEndOf="@+id/ivImage"
+            android:layout_toRightOf="@+id/ivImage"
+            android:text="Product Name"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvName"
+            android:layout_alignStart="@+id/tvName"
+            android:layout_below="@+id/textView3"
+            android:text="Total Price: "
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tvDesc2"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignBaseline="@+id/textView4"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_toEndOf="@+id/textView4"
+            android:text="Description2"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvName"
+            android:layout_alignStart="@+id/tvName"
+            android:layout_below="@+id/tvName"
+            android:text="Unit Price: "
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tvDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_toEndOf="@+id/textView3"
+            android:text="Description"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/qty_quantity"
+            android:text="1"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:layout_weight="0"
+
+            android:layout_toEndOf="@+id/qty_increase"
+            android:layout_toRightOf="@+id/qty_increase"
+            android:layout_below="@+id/ivImage"
+            android:layout_width="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="20dp" />
+
+        <ImageButton
+            android:id="@+id/qty_decrease"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_toEndOf="@+id/qty_quantity"
+            android:layout_toRightOf="@+id/qty_quantity"
+            android:layout_below="@+id/ivImage"
+            android:layout_weight="1"
+            android:elevation="4dp"
+            app:srcCompat="@drawable/qty_decrease" />
+
+
+        <ImageButton
+            android:id="@+id/qty_increase"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+
+            android:layout_toEndOf="@+id/btnDelete"
+            android:layout_toRightOf="@+id/btnDelete"
+            android:layout_below="@+id/ivImage"
+            android:layout_weight="1"
+            android:elevation="4dp"
+            app:srcCompat="@drawable/qty_increase" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="132dp"
+            android:layout_height="38dp"
+            android:layout_alignEnd="@+id/ivImage"
+            android:layout_below="@+id/ivImage"
+            android:backgroundTint="@color/colorRed"
+            android:text="Delete" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="">
+
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/home"
+                android:title="Home"></item>
+
+    </item>
+
+
+    <item android:title="Ordering">
+
+        <menu>
+            <item
+                android:id="@+id/newOrder"
+                android:icon="@drawable/neworder"
+
+                android:title="New order" />
+
+        <item
+            android:id="@+id/order"
+            android:icon="@drawable/order"
+
+            android:title="Previous Order(s)" />
+        <item
+            android:id="@+id/baby"
+            android:icon="@drawable/basket"
+
+            android:title="Cart" />
+
+        </menu>
+
+
+    </item>
+
+
+
+
+    <item android:title="Account">
+<menu>
+        <item
+        android:id="@+id/logout" android:icon="@drawable/close"
+        android:title="Logout"></item>
+
+</menu>
+
+    </item>
+
+
+
+</menu>
